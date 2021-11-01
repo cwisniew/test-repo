@@ -7,17 +7,17 @@ cangelog:
     categories:
       - title: Breaking Changes :bomb:
         labels:
-          breaking-change
+          - breaking-change
       - title: New Features :partying_face:
         lables:
-          feature
+          - feature
       - title: Performance Improvements :racing_car:
         labels:
-          performance
+          - performance
       - title: Bug Fixes :adhesive_bandage:	
         labels:
-          bug
+          - bug
       - title: Other Changes :thought_balloon:
         labels:
-          "*"
+          - "*"
   
