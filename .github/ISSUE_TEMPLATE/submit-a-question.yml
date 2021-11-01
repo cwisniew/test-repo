@@ -1,5 +1,5 @@
 name: Submit a Question
-about: Technical Questions
+description: Technical Questions
 title: '[Question]: '
 labels: question
 body:
