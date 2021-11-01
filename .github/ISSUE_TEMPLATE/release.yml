@@ -1,4 +1,4 @@
-cangelog:
+changelog:
   exclude:
     labels:
       - repo-admin
