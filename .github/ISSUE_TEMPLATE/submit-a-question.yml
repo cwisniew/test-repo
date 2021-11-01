@@ -4,7 +4,7 @@ title: ''
 labels: question
 assignees: ''
 body:
-  -type: markdown
+  - type: markdown
     attributes:
       value: |
         *This should NOT be used for general questions on use of MapTool*
