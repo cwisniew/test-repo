@@ -8,7 +8,7 @@ body:
       value: |
         This is a [ZenHub](https://www.zenhub.com/) Epic
         See attached issues (via [ZenHub](https://www.zenhub.com/) or plug in)for further information
-  -type: textarea
+  - type: textarea
     attribnutes:
       label: Summary of the Epic.
       description: Add a summary of the Epic
