@@ -5,17 +5,18 @@ title: '[BUG] <title>'
 labels: [bug]
 
 body:
-  - type: markdown
-    attributes:
-      value: Thanks for taking the time to file a bug report! Please fill out this form as completely as possible.
-    attributes:
-      value: 'Please first verify that an issue does not already exist for the bug.'
- - type: textarea
+- type: markdown
+  attributes:
+    value: Thanks for taking the time to file a bug report! Please fill out this form as completely as possible.
+- type: markdown
+  attributes:
+    value: 'Please first verify that an issue does not already exist for the bug.'
+- type: textarea
   attributes:
     label: Describe the Bug
     description: A clear and concise description of what the bug is.
     validations:
-      - required: true
+      required: true
 - type: textarea
   attributes:
     label: To Reproduce
@@ -26,19 +27,19 @@ body:
       3. If macro related, sample macro code '....'
       4. See error
   valiations:
-    - required: true
+    required: true
 - type: textarea
   attributes:
     label: Expected Behaviour
     description: A clear and concise description pof what you expected to happen.
   validations:
-    - required: true
+    required: true
 - type: textarea 
   attributes:
     label: Screenshots
     description: If applicable, add screenshots to help explain your problem.
   validations:
-    - required: false
+    required: false
 - type: input
   attributes:
     label: MapTool Info
@@ -47,7 +48,7 @@ body:
       Version: 1.x.y
       Install type: New, Upgrade [previous version], or JAR [Java Version]
  validations:
-    - required: false
+    required: false
  - type: input
    attributes:
     label: Desktop
@@ -55,7 +56,7 @@ body:
     placeholder: |
       OS: (e.g. Windows, Linux [Ubuntu, Debian, CentOs, etc], MacOS), Version: [10, 18.04, etc]
   validations:
-    - required: false
+    required: false
 - type: textarea
   attributes:
     label: Additional Context
