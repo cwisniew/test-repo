@@ -1,8 +1,7 @@
 name: Submit a Question
 about: Technical Questions
-title: ''
+title: '[Question]: '
 labels: question
-assignees: ''
 body:
   - type: markdown
     attributes:
