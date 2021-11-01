@@ -43,8 +43,7 @@ body:
       label: MapTool Info
       description: Information about your MapTool installation.
       placeholder: |
-        Version: 1.x.y
-        Install type: New, Upgrade [previous version], or JAR [Java Version]
+        Version: 1.x.y, Install type: New, Upgrade [previous version], or JAR [Java Version]
     validations:
       required: false
   - type: input
@@ -52,7 +51,7 @@ body:
       label: Desktop
       description: Desktop Operating System and version
       placeholder: |
-        OS: (e.g. Windows, Linux [Ubuntu, Debian, CentOs, etc], MacOS), Version: [10, 18.04, etc]
+        OS: (e.g. Windows, Linux/distro, MacOS), Version: [10, 18.04, etc]
     validations:
       required: false
   - type: textarea
