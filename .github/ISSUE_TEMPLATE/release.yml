@@ -5,19 +5,19 @@ cangelog:
     authors:
       - rptools-automation
   categories:
-    - title: Breaking Changes :bomb:
+    - title: Breaking Changes 💣
       labels:
         - breaking-change
-    - title: New Features :partying_face:
+    - title: New Features 🥳
       labels:
         - feature
-    - title: Performance Improvements :racing_car:
+    - title: Performance Improvements 🏎️	
       labels:
         - performance
-    - title: Bug Fixes :adhesive_bandage:	
+    - title: Bug Fixes 🩹		
       labels:
         - bug
-    - title: Other Changes :thought_balloon:
+    - title: Other Changes 💬	
       labels:
         - "*"
   
