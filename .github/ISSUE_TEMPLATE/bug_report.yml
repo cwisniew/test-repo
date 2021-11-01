@@ -13,8 +13,8 @@ body:
     attributes:
       label: Describe the Bug
       description: A clear and concise description of what the bug is.
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: To Reproduce
@@ -24,7 +24,7 @@ body:
         2. Click on '....'
         3. If macro related, sample macro code '....'
         4. See error
-    valiations:
+    validations:
       required: true
   - type: textarea
     attributes:
